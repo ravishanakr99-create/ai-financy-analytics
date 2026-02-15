@@ -1,0 +1,24 @@
+{
+  "queries": [
+    {
+      "query": "Please provide an additional 3-month bank statement with salary credits highlighted.",
+      "tags": ["bank_statement", "income", "high_emi"],
+      "base_confidence": 0.66
+    },
+    {
+      "query": "There is a mismatch in KYC identifiers. Kindly submit corrected PAN/Aadhaar copy.",
+      "tags": ["id_proof", "pan_card", "kyc", "FORM-KYC-RECON"],
+      "base_confidence": 0.61
+    },
+    {
+      "query": "Your credit score is below the policy benchmark. Share explanation for recent delinquencies.",
+      "tags": ["low_credit", "FORM-CREDIT-EXPL"],
+      "base_confidence": 0.68
+    },
+    {
+      "query": "Income document set is incomplete. Upload latest salary slips or ITR acknowledgment.",
+      "tags": ["salary_slip", "itr", "FORM-16A"],
+      "base_confidence": 0.64
+    }
+  ]
+}

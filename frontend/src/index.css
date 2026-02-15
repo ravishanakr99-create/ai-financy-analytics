@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Gill Sans', 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:
+    radial-gradient(circle at 10% 10%, rgba(23, 133, 165, 0.12), transparent 40%),
+    radial-gradient(circle at 90% 0%, rgba(15, 103, 72, 0.1), transparent 45%),
+    #f2f7fb;
+  color: #0d2738;
+  min-height: 100vh;
+}

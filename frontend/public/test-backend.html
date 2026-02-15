@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><title>Backend Connection Test</title></head>
+<body>
+  <h1>Backend Connection Test</h1>
+  <button onclick="test()">Test /api/v1/test</button>
+  <pre id="result"></pre>
+  <script>
+    async function test() {
+      const r = document.getElementById('result');
+      r.textContent = 'Testing...';
+      try {
+        const res = await fetch('/api/v1/test');
+        const data = await res.json();
+        r.textContent = 'OK:\n' + JSON.stringify(data, null, 2);
+      } catch (e) {
+        r.textContent = 'FAILED: ' + e.message;
+      }
+    }
+  </script>
+</body>
+</html>

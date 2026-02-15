@@ -1,0 +1,19 @@
+{
+  "forms": [
+    {
+      "code": "FORM-16A",
+      "name": "Income Clarification Form",
+      "trigger_rule": "if_missing_income_proof"
+    },
+    {
+      "code": "FORM-CREDIT-EXPL",
+      "name": "Credit Bureau Explanation Form",
+      "trigger_rule": "if_credit_score_below_700"
+    },
+    {
+      "code": "FORM-KYC-RECON",
+      "name": "KYC Name Reconciliation Form",
+      "trigger_rule": "if_name_match_below_0_9"
+    }
+  ]
+}

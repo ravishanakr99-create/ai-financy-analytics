@@ -1,0 +1,32 @@
+{
+  "rules": [
+    {
+      "id": "min_monthly_salary",
+      "name": "Minimum Monthly Salary >= 30000",
+      "metric": "monthly_salary",
+      "operator": ">=",
+      "value": 30000
+    },
+    {
+      "id": "max_emi_ratio",
+      "name": "EMI Ratio <= 45%",
+      "metric": "emi_ratio_percent",
+      "operator": "<=",
+      "value": 45
+    },
+    {
+      "id": "min_credit_score",
+      "name": "Credit Score >= 680",
+      "metric": "credit_score",
+      "operator": ">=",
+      "value": 680
+    },
+    {
+      "id": "min_bank_statement_months",
+      "name": "Bank Statements >= 3 months",
+      "metric": "bank_statement_months",
+      "operator": ">=",
+      "value": 3
+    }
+  ]
+}
